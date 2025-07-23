@@ -1,0 +1,7 @@
+Use case - Real state property factory
+
+Three types of properties - 
+1. Home
+2. Apartment
+3. Commercial
+
