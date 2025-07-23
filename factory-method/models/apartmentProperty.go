@@ -1,7 +1,5 @@
 package models
 
-import "github.com/avaneesh-ravat/go-design-pattern/factory"
-
 type ApartmentProperty struct {
 	Cost     int
 	Layout   string

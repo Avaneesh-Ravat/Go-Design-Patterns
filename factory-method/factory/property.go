@@ -6,9 +6,9 @@ import (
 )
 
 type Property interface {
-	GetPrice()
-	GetLayout()
-	GetLocation()
+	GetPrice() int
+	GetLayout() string
+	GetLocation() string
 }
 
 func CreateProperty(propertyType string, price int, layout string, location string) (Property, error) {
